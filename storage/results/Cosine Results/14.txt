@@ -1,0 +1,322 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:31:34.504255
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ maximum             1.0000          6         
+Write                0.3233          0         
+ in                  0.2425          7         
+ integers            0.2274          12        
+ =                   0.1989          15        
+.my                  0.1952          13        
+list                 0.1880          14        
+ code                0.1754          2         
+ find                0.1679          4         
+ list                0.1356          10        
+1                    0.1243          17        
+ a                   0.1191          1         
+ [                   0.1095          16        
+4                    0.1017          23        
+]                    0.0825          26        
+5                    0.0745          25        
+ of                  0.0273          11        
+ to                  0.0267          3         
+2                    0.0197          19        
+ the                 0.0097          5         
+3                    0.0094          21        
+ given               0.0008          9         
+ a                   0.0000          8         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' maximum' (Position: 6, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print("The maximum number in the list is:", max_num)
+
+==================================================
+
+TOKEN REMOVED: 'Write' (Position: 0, Importance: 0.3233)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' in' (Position: 7, Importance: 0.2425)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' integers' (Position: 12, Importance: 0.2274)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 15, Importance: 0.1989)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '.my' (Position: 13, Importance: 0.1952)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: 'list' (Position: 14, Importance: 0.1880)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 2, Importance: 0.1754)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' find' (Position: 4, Importance: 0.1679)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' list' (Position: 10, Importance: 0.1356)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 17, Importance: 0.1243)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.1191)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' [' (Position: 16, Importance: 0.1095)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '4' (Position: 23, Importance: 0.1017)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = mylist[0]
+for num in mylist:
+    if num > max_num:
+        max_num = num
+
+print("The maximum number in the list is:", max_num)
+
+==================================================
+
+TOKEN REMOVED: ']' (Position: 26, Importance: 0.0825)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '5' (Position: 25, Importance: 0.0745)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 11, Importance: 0.0273)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 3, Importance: 0.0267)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '2' (Position: 19, Importance: 0.0197)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 5, Importance: 0.0097)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: '3' (Position: 21, Importance: 0.0094)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 9, Importance: 0.0008)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 8, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+max_num = max(mylist)
+print(max_num)
+
+==================================================
+

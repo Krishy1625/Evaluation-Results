@@ -1,0 +1,215 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:31:24.995215
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create a nested loop to print every combination of numbers between 0-9
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ combination         1.0000          7         
+-                    0.7752          13        
+0                    0.7614          12        
+9                    0.5718          14        
+ loop                0.4732          3         
+ print               0.4270          5         
+Create               0.3983          0         
+ nested              0.3397          2         
+ numbers             0.3091          9         
+ every               0.2315          6         
+ a                   0.0878          1         
+ to                  0.0576          4         
+ between             0.0441          10        
+ of                  0.0000          8         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' combination' (Position: 7, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: '-' (Position: 13, Importance: 0.7752)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: '0' (Position: 12, Importance: 0.7614)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: '9' (Position: 14, Importance: 0.5718)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' loop' (Position: 3, Importance: 0.4732)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' print' (Position: 5, Importance: 0.4270)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: 'Create' (Position: 0, Importance: 0.3983)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' nested' (Position: 2, Importance: 0.3397)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' numbers' (Position: 9, Importance: 0.3091)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' every' (Position: 6, Importance: 0.2315)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.0878)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 4, Importance: 0.0576)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' between' (Position: 10, Importance: 0.0441)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 8, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a nested loop to print every combination of numbers between 0-9
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(10):
+    for j in range(10):
+        print(i, j)
+
+==================================================
+

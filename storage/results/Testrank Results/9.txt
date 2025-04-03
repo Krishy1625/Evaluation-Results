@@ -1,0 +1,7 @@
+code            1.0000
+snippet         0.8856
+return          0.7993
+intersecting    0.7374
+create          0.6725
+arrays          0.3415
+element.        0.3365

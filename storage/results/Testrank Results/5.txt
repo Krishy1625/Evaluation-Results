@@ -1,0 +1,7 @@
+code            1.0000
+using           0.9796
+python          0.7363
+forloop.i       0.6388
+following       0.4716
+10              0.3140
+rewrite         0.2023

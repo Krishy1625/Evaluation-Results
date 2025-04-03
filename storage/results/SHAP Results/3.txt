@@ -1,0 +1,41 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:07:35.180604
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+Write                1.0000          0         
+silent               0.7835          21        
+ =                   0.7429          19        
+ whether             0.7116          5         
+ "                   0.6617          20        
+ code                0.6348          2         
+ an                  0.6168          9         
+ strings             0.6124          7         
+ check               0.5650          4         
+ are                 0.5386          8         
+ a                   0.5371          1         
+listen               0.5058          16        
+ two                 0.4771          6         
+ to                  0.4714          3         
+ not                 0.4209          12        
+ second              0.2887          18        
+agrams               0.1736          10        
+"                    0.0828          17        
+"                    0.0828          22        
+ "                   0.0675          15        
+.first               0.0652          13        
+ or                  0.0132          11        
+ =                   0.0000          14        

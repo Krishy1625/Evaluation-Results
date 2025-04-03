@@ -1,0 +1,357 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:20:33.379077
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a function that checks if a given number is even or odd.
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+Write                1.0000          0         
+ function            0.8768          2         
+ even                0.6309          10        
+ checks              0.5605          4         
+ a                   0.5373          1         
+ number              0.5167          8         
+ odd                 0.4313          12        
+ or                  0.0985          11        
+ if                  0.0466          5         
+ a                   0.0102          6         
+ that                0.0023          3         
+ given               0.0007          7         
+ is                  0.0000          9         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: 'Write' (Position: 0, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' function' (Position: 2, Importance: 0.8768)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' even' (Position: 10, Importance: 0.6309)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' checks' (Position: 4, Importance: 0.5605)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.5373)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' number' (Position: 8, Importance: 0.5167)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' odd' (Position: 12, Importance: 0.4313)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' or' (Position: 11, Importance: 0.0985)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' if' (Position: 5, Importance: 0.0466)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 6, Importance: 0.0102)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' that' (Position: 3, Importance: 0.0023)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 7, Importance: 0.0007)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+
+TOKEN REMOVED: ' is' (Position: 9, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function that checks if a given number is even or odd.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+Here is a Python function that checks if a given number is even or odd:
+
+```python
+def check_even_odd(num):
+    if num % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+# Test the function
+print(check_even_odd(5))  # Output: Odd
+print(check_even_odd(10))  # Output: Even
+```
+
+This function takes a number as input and uses the modulo operator (%) to check if the number is divisible by 2. If the remainder is 0, the number is even, otherwise it is odd.
+
+==================================================
+

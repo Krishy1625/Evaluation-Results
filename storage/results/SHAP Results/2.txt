@@ -1,0 +1,51 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:07:41.296623
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Implement an algorithm to find the sum of all the elements in an array.The array is: [3, 5, 8, 10, 4]
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ find                1.0000          4         
+.The                 0.9899          14        
+ of                  0.9053          7         
+3                    0.8980          19        
+ elements            0.8915          10        
+5                    0.8798          22        
+ the                 0.8783          5         
+ the                 0.8783          9         
+Implement            0.8753          0         
+8                    0.8424          25        
+4                    0.8341          31        
+ array               0.8299          13        
+ array               0.8208          15        
+ algorithm           0.8098          2         
+ to                  0.7948          3         
+ sum                 0.7788          6         
+ all                 0.7568          8         
+ is                  0.7538          16        
+]                    0.7029          32        
+ an                  0.6473          12        
+ an                  0.6446          1         
+10                   0.6443          28        
+:                    0.4461          17        
+,                    0.4461          20        
+[space]              0.4461          21        
+,                    0.4461          23        
+[space]              0.4461          24        
+,                    0.4461          26        
+[space]              0.4461          27        
+,                    0.4461          29        
+[space]              0.4461          30        
+ [                   0.3538          18        
+ in                  0.0000          11        

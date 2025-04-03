@@ -1,0 +1,197 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:38:01.919647
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create a function to calculate the maximum of two numbers.
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ maximum             1.0000          6         
+ function            0.4190          2         
+ numbers             0.3198          9         
+Create               0.2979          0         
+ calculate           0.2642          4         
+ two                 0.2598          8         
+ of                  0.1876          7         
+ a                   0.1177          1         
+ to                  0.0245          3         
+ the                 0.0000          5         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' maximum' (Position: 6, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+
+==================================================
+
+TOKEN REMOVED: ' function' (Position: 2, Importance: 0.4190)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+
+==================================================
+
+TOKEN REMOVED: ' numbers' (Position: 9, Importance: 0.3198)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: 'Create' (Position: 0, Importance: 0.2979)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' calculate' (Position: 4, Importance: 0.2642)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' two' (Position: 8, Importance: 0.2598)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 7, Importance: 0.1876)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.1177)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 3, Importance: 0.0245)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 5, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create a function to calculate the maximum of two numbers.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+function maxOfTwoNumbers(num1, num2) {
+  return Math.max(num1, num2);
+}
+
+// Example usage
+console.log(maxOfTwoNumbers(5, 10)); // Output: 10
+console.log(maxOfTwoNumbers(-3, -8)); // Output: -3
+
+==================================================
+

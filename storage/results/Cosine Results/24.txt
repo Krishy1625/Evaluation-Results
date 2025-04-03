@@ -1,0 +1,323 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:44:46.992426
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ remove              1.0000          4         
+ whitespace          0.8911          6         
+Write                0.7121          0         
+.my                  0.6907          12        
+String               0.6258          13        
+ function            0.5509          2         
+ "                   0.4463          15        
+ all                 0.3922          5         
+Hello                0.3707          16        
+ a                   0.3296          1         
+ string              0.2872          11        
+ World               0.2716          18        
+ =                   0.2171          14        
+ "                   0.0934          20        
+ to                  0.0494          3         
+ from                0.0350          8         
+ characters          0.0341          7         
+ a                   0.0038          9         
+ given               0.0000          10        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' remove' (Position: 4, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' whitespace' (Position: 6, Importance: 0.8911)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: 'Write' (Position: 0, Importance: 0.7121)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: '.my' (Position: 12, Importance: 0.6907)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: 'String' (Position: 13, Importance: 0.6258)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(string):
+    return string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' function' (Position: 2, Importance: 0.5509)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 15, Importance: 0.4463)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' all' (Position: 5, Importance: 0.3922)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: 'Hello' (Position: 16, Importance: 0.3707)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.3296)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' string' (Position: 11, Importance: 0.2872)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(string):
+    return string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' World' (Position: 18, Importance: 0.2716)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 14, Importance: 0.2171)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 20, Importance: 0.0934)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 3, Importance: 0.0494)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' from' (Position: 8, Importance: 0.0350)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' characters' (Position: 7, Importance: 0.0341)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 9, Importance: 0.0038)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(string):
+    return string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 10, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def remove_whitespace(input_string):
+    return input_string.replace(" ", "")
+
+myString = "Hello   World    "
+print(remove_whitespace(myString)) # Output: "HelloWorld"
+
+==================================================
+

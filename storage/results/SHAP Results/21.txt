@@ -1,0 +1,34 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:49:19.095492
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create a function that takes in a string and replaces all punctuation with a space.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ with                1.0000          12        
+ takes               0.7997          4         
+ function            0.7774          2         
+ punctuation         0.7526          11        
+ replaces            0.7020          9         
+Create               0.5218          0         
+ a                   0.3541          6         
+ a                   0.3503          1         
+.                    0.3485          15        
+ all                 0.3259          10        
+ in                  0.3204          5         
+ and                 0.3088          8         
+ space               0.2381          14        
+ string              0.2341          7         
+ a                   0.0937          13        
+ that                0.0000          3         

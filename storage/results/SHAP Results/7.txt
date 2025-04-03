@@ -1,0 +1,54 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:25:08.862665
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a Python program to remove all instances of a given value from a given list.[1, 2, 3, 2, 3, 4], 2
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+.[                   1.0000          16        
+ value               0.9856          11        
+ from                0.9811          12        
+ of                  0.9744          8         
+ instances           0.9435          7         
+2                    0.9259          26        
+ to                  0.9211          4         
+3                    0.9164          23        
+2                    0.9016          20        
+ Python              0.8959          2         
+4                    0.8915          32        
+],                   0.8834          33        
+1                    0.8796          17        
+Write                0.8651          0         
+ given               0.8517          10        
+ list                0.7940          15        
+ a                   0.7139          1         
+ remove              0.6448          5         
+ program             0.6232          3         
+ a                   0.5589          9         
+ given               0.2094          14        
+3                    0.1459          29        
+,                    0.1309          18        
+[space]              0.1309          19        
+,                    0.1309          21        
+[space]              0.1309          22        
+,                    0.1309          24        
+[space]              0.1309          25        
+,                    0.1309          27        
+[space]              0.1309          28        
+,                    0.1309          30        
+[space]              0.1309          31        
+[space]              0.1309          34        
+ all                 0.1186          6         
+2                    0.1011          35        
+ a                   0.0000          13        

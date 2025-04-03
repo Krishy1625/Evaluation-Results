@@ -1,0 +1,283 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:31:31.327161
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+Find                 1.0000          0         
+.string              0.5232          11        
+ number              0.4633          2         
+ string              0.4420          10        
+ =                   0.4078          12        
+Hello                0.3738          14        
+ World               0.3714          15        
+l                    0.3091          20        
+ '                   0.2837          19        
+ times               0.2715          4         
+ letter              0.2275          17        
+ letter              0.2260          6         
+ in                  0.2179          8         
+ appears             0.1835          7         
+"                    0.1546          16        
+ "                   0.1331          13        
+ of                  0.1026          3         
+ =                   0.1005          18        
+ a                   0.0857          9         
+'                    0.0476          21        
+ the                 0.0389          1         
+ a                   0.0000          5         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: 'Find' (Position: 0, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: '.string' (Position: 11, Importance: 0.5232)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' number' (Position: 2, Importance: 0.4633)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' string' (Position: 10, Importance: 0.4420)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 12, Importance: 0.4078)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: 'Hello' (Position: 14, Importance: 0.3738)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' World' (Position: 15, Importance: 0.3714)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: 'l' (Position: 20, Importance: 0.3091)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' '' (Position: 19, Importance: 0.2837)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' times' (Position: 4, Importance: 0.2715)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' letter' (Position: 17, Importance: 0.2275)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' letter' (Position: 6, Importance: 0.2260)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' in' (Position: 8, Importance: 0.2179)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' appears' (Position: 7, Importance: 0.1835)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: '"' (Position: 16, Importance: 0.1546)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 13, Importance: 0.1331)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 3, Importance: 0.1026)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 18, Importance: 0.1005)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 9, Importance: 0.0857)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ''' (Position: 21, Importance: 0.0476)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 1, Importance: 0.0389)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 5, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The letter 'l' appears 3 times in the string "Hello World".
+
+==================================================
+

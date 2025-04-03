@@ -1,0 +1,40 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:34:37.271231
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Find the number of times a letter appears in a string.string = "Hello World" letter = 'l'
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+.string              1.0000          11        
+ string              0.9305          10        
+ a                   0.9169          5         
+ the                 0.9123          1         
+ =                   0.8904          18        
+ appears             0.8887          7         
+ letter              0.8547          6         
+ letter              0.8309          17        
+ of                  0.7893          3         
+Find                 0.7643          0         
+l                    0.7465          20        
+ times               0.7371          4         
+ =                   0.7118          12        
+ a                   0.5984          9         
+ in                  0.5071          8         
+"                    0.1530          16        
+'                    0.1530          21        
+Hello                0.1473          14        
+ number              0.1173          2         
+ World               0.1027          15        
+ "                   0.0162          13        
+ '                   0.0000          19        

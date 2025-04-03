@@ -1,0 +1,259 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T00:57:48.181659
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+Change               1.0000          0         
+ ascending           0.7054          9         
+ array               0.6303          3         
+ =                   0.5190          12        
+3                    0.4397          14        
+ it                  0.4357          6         
+.array               0.4085          11        
+ order               0.3140          10        
+ the                 0.2769          1         
+ [                   0.2295          13        
+ in                  0.2200          8         
+ orders              0.2028          7         
+ following           0.2028          2         
+8                    0.1578          23        
+]                    0.1290          27        
+7                    0.1266          17        
+ so                  0.1090          4         
+1                    0.0828          20        
+4                    0.0632          26        
+ that                0.0000          5         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: 'Change' (Position: 0, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' ascending' (Position: 9, Importance: 0.7054)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' array' (Position: 3, Importance: 0.6303)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 12, Importance: 0.5190)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '3' (Position: 14, Importance: 0.4397)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' it' (Position: 6, Importance: 0.4357)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '.array' (Position: 11, Importance: 0.4085)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' order' (Position: 10, Importance: 0.3140)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 1, Importance: 0.2769)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' [' (Position: 13, Importance: 0.2295)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' in' (Position: 8, Importance: 0.2200)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' orders' (Position: 7, Importance: 0.2028)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' following' (Position: 2, Importance: 0.2028)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '8' (Position: 23, Importance: 0.1578)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ']' (Position: 27, Importance: 0.1290)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '7' (Position: 17, Importance: 0.1266)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' so' (Position: 4, Importance: 0.1090)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 20, Importance: 0.0828)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: '4' (Position: 26, Importance: 0.0632)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+
+TOKEN REMOVED: ' that' (Position: 5, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+array = [1, 3, 4, 7, 8]
+
+==================================================
+

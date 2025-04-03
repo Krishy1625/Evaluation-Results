@@ -1,0 +1,39 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:25:07.250685
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ a                   1.0000          1         
+ mean                0.9210          7         
+3                    0.9047          17        
+ array               0.8837          11        
+.[                   0.8816          12        
+]                    0.8044          20        
+Write                0.7945          0         
+ given               0.7691          10        
+2                    0.7585          15        
+ of                  0.7382          8         
+ to                  0.5867          4         
+ calculate           0.5675          5         
+ a                   0.5533          9         
+ Python              0.3789          2         
+ code                0.1968          3         
+1                    0.1713          13        
+ the                 0.1514          6         
+4                    0.0828          19        
+,                    0.0000          14        
+,                    0.0000          16        
+,                    0.0000          18        

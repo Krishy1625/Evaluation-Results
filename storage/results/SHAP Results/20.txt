@@ -1,0 +1,47 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:42:11.451352
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+(i                   1.0000          27        
+10                   0.9738          15        
+ to                  0.9737          13        
+1                    0.9689          12        
+ all                 0.9675          7         
+ in                  0.9672          18        
+ out                 0.9666          6         
+ following           0.9651          2         
+ even                0.9650          8         
+ the                 0.9575          1         
+ i                   0.9571          17        
+ print               0.9562          5         
+11                   0.9441          23        
+Edit                 0.9394          0         
+ print               0.9361          26        
+):                   0.8989          24        
+ numbers             0.8782          9         
+ to                  0.8649          4         
+ range               0.8347          19        
+.for                 0.8193          16        
+1                    0.7817          21        
+ code                0.5236          3         
+[space]              0.0377          11        
+[space]              0.0377          14        
+(                    0.0377          20        
+,                    0.0377          22        
+[space]              0.0377          25        
+)                    0.0377          28        
+ from                0.0000          10        

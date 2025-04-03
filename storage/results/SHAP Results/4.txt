@@ -1,0 +1,51 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:07:48.679872
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+.facebook            1.0000          30        
+ given               0.9898          12        
+ https               0.9587          27        
+.com                 0.9540          31        
+.com                 0.9324          25        
+://                  0.9308          22        
+.google              0.9295          24        
+ URLs                0.9288          9         
+ https               0.8879          21        
+www                  0.8688          29        
+ from                0.8644          10        
+www                  0.8642          23        
+ a                   0.8268          1         
+ urls                0.7825          18        
+ extract             0.6758          6         
+ of                  0.6685          3         
+ snippet             0.6656          2         
+Generate             0.6652          0         
+ some                0.5954          17        
+ contains            0.4187          16        
+ string              0.3741          13        
+://                  0.2546          28        
+ to                  0.2508          5         
+ string              0.2405          15        
+ and                 0.2394          26        
+ such                0.1988          19        
+ code                0.1823          4         
+ all                 0.1527          7         
+.This                0.1375          14        
+.                    0.1004          32        
+ as                  0.0860          20        
+ the                 0.0628          8         
+ the                 0.0000          11        

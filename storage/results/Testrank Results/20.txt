@@ -1,0 +1,7 @@
+even            1.0000
+print           0.7519
+numbers         0.6737
+code            0.5045
+10.for          0.3641
+following       0.2549
+range111        0.0658

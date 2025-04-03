@@ -1,0 +1,32 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:24:51.330752
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a function that checks if a given number is even or odd.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ function            1.0000          2         
+ a                   0.9302          1         
+ if                  0.8973          5         
+ odd                 0.6629          12        
+ given               0.5287          7         
+ is                  0.5244          9         
+ number              0.4844          8         
+ checks              0.4662          4         
+ that                0.4221          3         
+Write                0.4122          0         
+ a                   0.3519          6         
+ or                  0.3500          11        
+.                    0.1713          13        
+ even                0.0000          10        

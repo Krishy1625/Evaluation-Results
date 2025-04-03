@@ -1,0 +1,7 @@
+two             1.0000
+strings         0.8968
+anagrams        0.8232
+whether         0.6700
+not.first       0.4117
+check           0.3377
+listen          0.0137

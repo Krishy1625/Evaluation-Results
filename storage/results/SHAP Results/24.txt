@@ -1,0 +1,39 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:49:28.542274
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a function to remove all whitespace characters from a given string.myString = "Hello   World    "
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ function            1.0000          2         
+ whitespace          0.9984          6         
+Write                0.9983          0         
+.my                  0.9908          12        
+ string              0.9710          11        
+ characters          0.9648          7         
+ given               0.9372          10        
+ from                0.9116          8         
+ a                   0.8817          9         
+ all                 0.8529          5         
+ a                   0.8488          1         
+ to                  0.8333          3         
+ remove              0.7834          4         
+String               0.6343          13        
+[space]              0.5623          17        
+[space]              0.5623          19        
+ =                   0.4896          14        
+ World               0.4745          18        
+ "                   0.4666          15        
+ "                   0.3433          20        
+Hello                0.0000          16        

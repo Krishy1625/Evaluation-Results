@@ -1,0 +1,801 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:38:12.894485
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ longest             1.0000          11        
+.my                  0.8131          16        
+_string              0.6107          17        
+ function            0.6036          7         
+ =                   0.4932          18        
+ characters          0.3628          15        
+ sequence            0.2860          13        
+ create              0.2494          5         
+ string              0.2358          3         
+de                   0.2213          22        
+In                   0.2087          0         
+ab                   0.1997          20        
+ consecutive         0.1767          12        
+ given               0.1668          2         
+ "                   0.1228          19        
+ returns             0.1156          9         
+"                    0.0739          26        
+ a                   0.0658          1         
+ of                  0.0658          14        
+cc                   0.0484          21        
+ a                   0.0154          6         
+ the                 0.0106          10        
+ that                0.0093          8         
+j                    0.0079          25        
+gh                   0.0008          24        
+ef                   0.0000          23        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' longest' (Position: 11, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: '.my' (Position: 16, Importance: 0.8131)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: '_string' (Position: 17, Importance: 0.6107)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' function' (Position: 7, Importance: 0.6036)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 18, Importance: 0.4932)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' characters' (Position: 15, Importance: 0.3628)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' sequence' (Position: 13, Importance: 0.2860)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' create' (Position: 5, Importance: 0.2494)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' string' (Position: 3, Importance: 0.2358)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'de' (Position: 22, Importance: 0.2213)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'In' (Position: 0, Importance: 0.2087)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'ab' (Position: 20, Importance: 0.1997)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' consecutive' (Position: 12, Importance: 0.1767)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 2, Importance: 0.1668)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 19, Importance: 0.1228)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' returns' (Position: 9, Importance: 0.1156)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: '"' (Position: 26, Importance: 0.0739)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.0658)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 14, Importance: 0.0658)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'cc' (Position: 21, Importance: 0.0484)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 6, Importance: 0.0154)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 10, Importance: 0.0106)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = ""
+    
+    for i in range(len(my_string)):
+        if i == 0:
+            current_sequence += my_string[i]
+        elif my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: ' that' (Position: 8, Importance: 0.0093)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'j' (Position: 25, Importance: 0.0079)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'gh' (Position: 24, Importance: 0.0008)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+
+TOKEN REMOVED: 'ef' (Position: 23, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def longest_consecutive_sequence(my_string):
+    max_sequence = ""
+    current_sequence = my_string[0]
+    
+    for i in range(1, len(my_string)):
+        if my_string[i] == my_string[i-1]:
+            current_sequence += my_string[i]
+        else:
+            if len(current_sequence) > len(max_sequence):
+                max_sequence = current_sequence
+            current_sequence = my_string[i]
+    
+    if len(current_sequence) > len(max_sequence):
+        max_sequence = current_sequence
+    
+    return max_sequence
+
+my_string = "abccdeefghj"
+print(longest_consecutive_sequence(my_string))
+
+==================================================
+

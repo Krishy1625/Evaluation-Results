@@ -1,0 +1,36 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:49:26.084709
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ containing          1.0000          7         
+ by                  0.9861          10        
+ of                  0.9853          3         
+ array               0.9335          2         
+ an                  0.8885          1         
+ to                  0.8659          14        
+ numbers             0.8347          8         
+3                    0.7585          12        
+ divisible           0.7304          9         
+ length              0.6623          4         
+Create               0.5675          0         
+45                   0.5266          16        
+15                   0.3547          6         
+ up                  0.3353          13        
+[space]              0.0000          5         
+[space]              0.0000          11        
+[space]              0.0000          15        
+.                    0.0000          17        

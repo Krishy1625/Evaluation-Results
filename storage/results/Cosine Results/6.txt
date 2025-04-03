@@ -1,0 +1,361 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:20:36.003835
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ mean                1.0000          7         
+ Python              0.5203          2         
+ array               0.3687          11        
+.[                   0.2786          12        
+Write                0.2479          0         
+ a                   0.1824          1         
+4                    0.1784          19        
+1                    0.1396          13        
+ calculate           0.1224          5         
+ code                0.0878          3         
+2                    0.0709          15        
+3                    0.0602          17        
+]                    0.0449          20        
+ of                  0.0309          8         
+ given               0.0176          10        
+ to                  0.0137          4         
+ the                 0.0079          6         
+ a                   0.0000          9         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' mean' (Position: 7, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' Python' (Position: 2, Importance: 0.5203)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' array' (Position: 11, Importance: 0.3687)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: '.[' (Position: 12, Importance: 0.2786)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: 'Write' (Position: 0, Importance: 0.2479)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.1824)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: '4' (Position: 19, Importance: 0.1784)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 13, Importance: 0.1396)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' calculate' (Position: 5, Importance: 0.1224)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 3, Importance: 0.0878)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: '2' (Position: 15, Importance: 0.0709)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: '3' (Position: 17, Importance: 0.0602)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ']' (Position: 20, Importance: 0.0449)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 8, Importance: 0.0309)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 10, Importance: 0.0176)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 4, Importance: 0.0137)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 6, Importance: 0.0079)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 9, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a Python code to calculate the mean of a given array.[1,2,3,4]
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+# Define the array
+arr = [1, 2, 3, 4]
+
+# Calculate the mean
+mean = sum(arr) / len(arr)
+
+# Print the mean
+print("Mean of the array is:", mean)
+
+==================================================
+

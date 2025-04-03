@@ -1,0 +1,7 @@
+sum             1.0000 
+elements        0.9796
+find            0.7363 
+array.          0.6388 
+algorithm       0.4716 
+array           0.3140 
+implement       0.2023 

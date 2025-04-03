@@ -1,0 +1,187 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:31:34.778878
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+100                  1.0000          13        
+11                   0.9454          14        
+Convert              0.6038          0         
+ decimal             0.3821          7         
+.Binary              0.2900          9         
+ binary              0.2701          3         
+ following           0.2338          2         
+ the                 0.2165          1         
+ to                  0.1090          5         
+:                    0.0936          11        
+ number              0.0928          4         
+ Number              0.0679          10        
+ a                   0.0238          6         
+ number              0.0000          8         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: '100' (Position: 13, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: '11' (Position: 14, Importance: 0.9454)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: 'Convert' (Position: 0, Importance: 0.6038)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' decimal' (Position: 7, Importance: 0.3821)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: '.Binary' (Position: 9, Importance: 0.2900)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' binary' (Position: 3, Importance: 0.2701)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' following' (Position: 2, Importance: 0.2338)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 1, Importance: 0.2165)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 5, Importance: 0.1090)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ':' (Position: 11, Importance: 0.0936)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' number' (Position: 4, Importance: 0.0928)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' Number' (Position: 10, Importance: 0.0679)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 6, Importance: 0.0238)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+
+TOKEN REMOVED: ' number' (Position: 8, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+The decimal equivalent of the binary number 10011 is 19.
+
+==================================================
+

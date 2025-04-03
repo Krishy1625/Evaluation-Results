@@ -1,0 +1,45 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:34:37.068127
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a code to find the maximum in a given list of integers.mylist = [1,2,3,4,5]
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+5                    1.0000          25        
+4                    0.9894          23        
+ =                   0.8838          15        
+ [                   0.8316          16        
+2                    0.8242          19        
+ maximum             0.8206          6         
+ the                 0.8094          5         
+]                    0.7727          26        
+1                    0.7674          17        
+ to                  0.7621          3         
+ a                   0.7368          8         
+list                 0.7320          14        
+ in                  0.7288          7         
+ of                  0.7108          11        
+ list                0.6229          10        
+3                    0.6209          21        
+ a                   0.6062          1         
+ find                0.6020          4         
+ given               0.4734          9         
+ code                0.3299          2         
+ integers            0.3155          12        
+.my                  0.3136          13        
+Write                0.2169          0         
+,                    0.0000          18        
+,                    0.0000          20        
+,                    0.0000          22        
+,                    0.0000          24        

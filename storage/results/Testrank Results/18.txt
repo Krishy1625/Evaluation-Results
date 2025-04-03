@@ -1,0 +1,7 @@
+returns         1.0000
+longest         0.9315
+function        0.7476
+consecutive     0.6093
+create          0.4944
+sequence        0.3001
+string          0.2380

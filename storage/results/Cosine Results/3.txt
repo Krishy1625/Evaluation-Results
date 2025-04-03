@@ -1,0 +1,916 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T00:57:46.112904
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+agrams               1.0000          10        
+ an                  0.5450          9         
+Write                0.4667          0         
+silent               0.3565          21        
+listen               0.3543          16        
+.first               0.2271          13        
+ code                0.2224          2         
+ =                   0.2128          14        
+ "                   0.1541          15        
+ a                   0.1512          1         
+ strings             0.1364          7         
+ or                  0.0979          11        
+ second              0.0802          18        
+ not                 0.0557          12        
+ are                 0.0527          8         
+ two                 0.0521          6         
+"                    0.0406          17        
+ "                   0.0371          20        
+ whether             0.0281          5         
+"                    0.0275          22        
+ check               0.0184          4         
+ to                  0.0127          3         
+ =                   0.0000          19        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: 'agrams' (Position: 10, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' an' (Position: 9, Importance: 0.5450)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: 'Write' (Position: 0, Importance: 0.4667)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: 'silent' (Position: 21, Importance: 0.3565)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: 'listen' (Position: 16, Importance: 0.3543)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: '.first' (Position: 13, Importance: 0.2271)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 2, Importance: 0.2224)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 14, Importance: 0.2128)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 15, Importance: 0.1541)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.1512)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' strings' (Position: 7, Importance: 0.1364)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' or' (Position: 11, Importance: 0.0979)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' second' (Position: 18, Importance: 0.0802)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' not' (Position: 12, Importance: 0.0557)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' are' (Position: 8, Importance: 0.0527)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' two' (Position: 6, Importance: 0.0521)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: '"' (Position: 17, Importance: 0.0406)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 20, Importance: 0.0371)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' whether' (Position: 5, Importance: 0.0281)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: '"' (Position: 22, Importance: 0.0275)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' check' (Position: 4, Importance: 0.0184)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 3, Importance: 0.0127)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 19, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Write a code to check whether two strings are anagrams or not.first = "listen" second = "silent"
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def check_anagram(first, second):
+    if len(first) != len(second):
+        return False
+    
+    first_dict = {}
+    second_dict = {}
+    
+    for char in first:
+        if char in first_dict:
+            first_dict[char] += 1
+        else:
+            first_dict[char] = 1
+    
+    for char in second:
+        if char in second_dict:
+            second_dict[char] += 1
+        else:
+            second_dict[char] = 1
+    
+    return first_dict == second_dict
+
+first = "listen"
+second = "silent"
+
+if check_anagram(first, second):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
+
+==================================================
+

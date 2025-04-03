@@ -1,0 +1,47 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:07:38.677003
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ code                1.0000          5         
+ while               0.6861          14        
+ print               0.6716          21        
+ +=                  0.6678          26        
+ <=                  0.6520          16        
+rite                 0.6378          1         
+ using               0.6298          6         
+-loop                0.6272          9         
+ following           0.6258          3         
+ the                 0.6227          2         
+Rew                  0.6188          0         
+10                   0.6070          18        
+(i                   0.5845          22        
+ Python              0.4531          4         
+[space]              0.3817          12        
+[space]              0.3817          17        
+:                    0.3817          19        
+[space]              0.3817          20        
+)                    0.3817          23        
+[space]              0.3817          24        
+[space]              0.3817          27        
+ =                   0.3256          11        
+ i                   0.3247          15        
+0                    0.3205          13        
+ for                 0.3153          8         
+ a                   0.3139          7         
+1                    0.3073          28        
+ i                   0.0160          25        
+.i                   0.0000          10        

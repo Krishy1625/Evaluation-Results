@@ -1,0 +1,659 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T00:57:50.538156
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ snippet             1.0000          2         
+Generate             0.8050          0         
+.facebook            0.5078          30        
+ URLs                0.4250          9         
+.This                0.3485          14        
+.google              0.3315          24        
+ a                   0.3184          1         
+ extract             0.2957          6         
+ all                 0.2150          7         
+ code                0.1825          4         
+ string              0.1651          13        
+ https               0.1505          27        
+ to                  0.1110          5         
+ urls                0.1051          18        
+ contains            0.0897          16        
+ such                0.0876          19        
+ of                  0.0766          3         
+ string              0.0728          15        
+ given               0.0679          12        
+ https               0.0547          21        
+://                  0.0498          22        
+www                  0.0495          29        
+ from                0.0450          10        
+ and                 0.0387          26        
+www                  0.0370          23        
+ some                0.0309          17        
+ the                 0.0302          8         
+ the                 0.0261          11        
+.com                 0.0239          31        
+ as                  0.0225          20        
+://                  0.0057          28        
+.com                 0.0000          25        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' snippet' (Position: 2, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: 'Generate' (Position: 0, Importance: 0.8050)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '.facebook' (Position: 30, Importance: 0.5078)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' URLs' (Position: 9, Importance: 0.4250)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '.This' (Position: 14, Importance: 0.3485)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '.google' (Position: 24, Importance: 0.3315)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 1, Importance: 0.3184)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' extract' (Position: 6, Importance: 0.2957)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' all' (Position: 7, Importance: 0.2150)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 4, Importance: 0.1825)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' string' (Position: 13, Importance: 0.1651)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' https' (Position: 27, Importance: 0.1505)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 5, Importance: 0.1110)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' urls' (Position: 18, Importance: 0.1051)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' contains' (Position: 16, Importance: 0.0897)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' such' (Position: 19, Importance: 0.0876)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 3, Importance: 0.0766)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' string' (Position: 15, Importance: 0.0728)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' given' (Position: 12, Importance: 0.0679)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' https' (Position: 21, Importance: 0.0547)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '://' (Position: 22, Importance: 0.0498)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: 'www' (Position: 29, Importance: 0.0495)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' from' (Position: 10, Importance: 0.0450)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' and' (Position: 26, Importance: 0.0387)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: 'www' (Position: 23, Importance: 0.0370)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' some' (Position: 17, Importance: 0.0309)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 8, Importance: 0.0302)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 11, Importance: 0.0261)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '.com' (Position: 31, Importance: 0.0239)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: ' as' (Position: 20, Importance: 0.0225)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '://' (Position: 28, Importance: 0.0057)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+
+TOKEN REMOVED: '.com' (Position: 25, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Generate a snippet of code to extract all the URLs from the given string.This string contains some urls such as https://www.google.com and https://www.facebook.com.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+import re
+
+def extract_urls(text):
+    urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', text)
+    return urls
+
+text = "This string contains some urls such as https://www.google.com and https://www.facebook.com."
+urls = extract_urls(text)
+print(urls)
+
+==================================================
+

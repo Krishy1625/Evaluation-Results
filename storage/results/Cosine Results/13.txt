@@ -1,0 +1,461 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:31:33.414584
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+Modify               1.0000          0         
+ TODO                0.8363          25        
+ code                0.6049          2         
+".                   0.5016          15        
+ power               0.4951          12        
+ "                   0.4890          8         
+ mathematical        0.4697          6         
+ the                 0.3970          1         
+ expression          0.3308          7         
+x                    0.2706          9         
+ power               0.2333          21        
+ #                   0.2185          24        
+ Calculate           0.1517          17        
+ to                  0.1440          3         
+ y                   0.1400          14        
+ y                   0.1207          23        
+ perform             0.1096          4         
+#                    0.1037          16        
+ the                 0.1023          5         
+ x                   0.1000          18        
+ to                  0.0987          10        
+ the                 0.0516          11        
+ of                  0.0285          13        
+ of                  0.0059          22        
+ to                  0.0053          19        
+ the                 0.0000          20        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: 'Modify' (Position: 0, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' TODO' (Position: 25, Importance: 0.8363)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 2, Importance: 0.6049)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: '".' (Position: 15, Importance: 0.5016)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' power' (Position: 12, Importance: 0.4951)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' "' (Position: 8, Importance: 0.4890)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' mathematical' (Position: 6, Importance: 0.4697)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 1, Importance: 0.3970)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' expression' (Position: 7, Importance: 0.3308)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: 'x' (Position: 9, Importance: 0.2706)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' power' (Position: 21, Importance: 0.2333)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' #' (Position: 24, Importance: 0.2185)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' Calculate' (Position: 17, Importance: 0.1517)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 3, Importance: 0.1440)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' y' (Position: 14, Importance: 0.1400)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' y' (Position: 23, Importance: 0.1207)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' perform' (Position: 4, Importance: 0.1096)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: '#' (Position: 16, Importance: 0.1037)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 5, Importance: 0.1023)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' x' (Position: 18, Importance: 0.1000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 10, Importance: 0.0987)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 11, Importance: 0.0516)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 13, Importance: 0.0285)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 22, Importance: 0.0059)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 19, Importance: 0.0053)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 20, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Modify the code to perform the mathematical expression "x to the power of y".# Calculate x to the power of y # TODO
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+def power(x, y):
+    return x ** y
+
+# Test the function
+result = power(2, 3)
+print(result) # Output: 8
+
+==================================================
+

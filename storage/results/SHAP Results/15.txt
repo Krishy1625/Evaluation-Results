@@ -1,0 +1,33 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:34:31.399648
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create a nested loop to print every combination of numbers between 0-9
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ between             1.0000          10        
+ combination         0.9913          7         
+ nested              0.9903          2         
+ loop                0.9333          3         
+9                    0.8792          14        
+ of                  0.8701          8         
+0                    0.8318          12        
+ every               0.8215          6         
+ print               0.7398          5         
+ a                   0.5791          1         
+Create               0.4387          0         
+ to                  0.3780          4         
+[space]              0.1271          11        
+-                    0.1271          13        
+ numbers             0.0000          9         

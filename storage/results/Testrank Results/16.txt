@@ -1,0 +1,5 @@
+algorithm       1.0000
+creates         0.9443
+random          0.8887
+password        0.8330
+design          0.3268

@@ -1,0 +1,7 @@
+given           1.0000
+instances       0.7406
+remove          0.5947
+program         0.4544
+value           0.3543
+python          0.3065
+write           0.1610

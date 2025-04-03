@@ -1,0 +1,33 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:34:26.183229
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Convert the following binary number to a decimal number.Binary Number: 10011
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ decimal             1.0000          7         
+ a                   0.9184          6         
+ to                  0.8695          5         
+ binary              0.8525          3         
+ the                 0.8255          1         
+ following           0.8214          2         
+ number              0.7703          8         
+.Binary              0.6180          9         
+Convert              0.4929          0         
+ Number              0.4171          10        
+ number              0.3026          4         
+:                    0.2961          11        
+[space]              0.2961          12        
+100                  0.0613          13        
+11                   0.0000          14        

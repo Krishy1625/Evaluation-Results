@@ -1,0 +1,7 @@
+string          1.0000
+returns         0.9796
+takes           0.7363
+list            0.6388
+function        0.4716
+words           0.3140
+write           0.2023

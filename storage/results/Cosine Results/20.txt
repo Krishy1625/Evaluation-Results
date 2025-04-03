@@ -1,0 +1,369 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:38:08.878437
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ even                1.0000          8         
+ i                   0.5271          17        
+ print               0.4550          5         
+11                   0.4541          23        
+10                   0.3518          15        
+Edit                 0.3371          0         
+ print               0.3287          26        
+ all                 0.3158          7         
+(                    0.2893          20        
+.for                 0.2714          16        
+ numbers             0.2284          9         
+(i                   0.2199          27        
+ the                 0.2034          1         
+ code                0.1942          3         
+ following           0.1828          2         
+)                    0.1567          28        
+ in                  0.1558          18        
+ range               0.1437          19        
+1                    0.1359          12        
+):                   0.1041          24        
+ to                  0.0759          4         
+1                    0.0756          21        
+ to                  0.0566          13        
+ from                0.0502          10        
+ out                 0.0000          6         
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' even' (Position: 8, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' i' (Position: 17, Importance: 0.5271)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' print' (Position: 5, Importance: 0.4550)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '11' (Position: 23, Importance: 0.4541)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '10' (Position: 15, Importance: 0.3518)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: 'Edit' (Position: 0, Importance: 0.3371)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' print' (Position: 26, Importance: 0.3287)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' all' (Position: 7, Importance: 0.3158)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '(' (Position: 20, Importance: 0.2893)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '.for' (Position: 16, Importance: 0.2714)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' numbers' (Position: 9, Importance: 0.2284)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '(i' (Position: 27, Importance: 0.2199)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 1, Importance: 0.2034)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 3, Importance: 0.1942)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' following' (Position: 2, Importance: 0.1828)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ')' (Position: 28, Importance: 0.1567)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' in' (Position: 18, Importance: 0.1558)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' range' (Position: 19, Importance: 0.1437)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1,11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 12, Importance: 0.1359)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '):' (Position: 24, Importance: 0.1041)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 4, Importance: 0.0759)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 21, Importance: 0.0756)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 13, Importance: 0.0566)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' from' (Position: 10, Importance: 0.0502)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+
+TOKEN REMOVED: ' out' (Position: 6, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Edit the following code to print out all even numbers from 1 to 10.for i in range(1,11):     print(i)
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+==================================================
+

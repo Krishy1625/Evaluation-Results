@@ -1,0 +1,7 @@
+characters      1.0000
+whitespace      0.7519
+given           0.6737
+remove          0.5045
+string.mystring 0.3641
+function        0.2549
+hello           0.0658

@@ -1,0 +1,331 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T00:57:56.238133
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+10                   1.0000          18        
+ Python              0.4956          4         
+Rew                  0.4093          0         
+rite                 0.3963          1         
+ for                 0.2326          8         
+-loop                0.1745          9         
+ print               0.1450          21        
+ following           0.1310          3         
+ the                 0.1306          2         
+ i                   0.0941          15        
+ while               0.0875          14        
+ code                0.0863          5         
+.i                   0.0861          10        
+(i                   0.0777          22        
+ +=                  0.0685          26        
+ <=                  0.0632          16        
+1                    0.0608          28        
+ using               0.0565          6         
+ =                   0.0462          11        
+0                    0.0355          13        
+ a                   0.0093          7         
+)                    0.0022          23        
+ i                   0.0015          25        
+:                    0.0000          19        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: '10' (Position: 18, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' Python' (Position: 4, Importance: 0.4956)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: 'Rew' (Position: 0, Importance: 0.4093)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: 'rite' (Position: 1, Importance: 0.3963)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' for' (Position: 8, Importance: 0.2326)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: '-loop' (Position: 9, Importance: 0.1745)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' print' (Position: 21, Importance: 0.1450)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' following' (Position: 3, Importance: 0.1310)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' the' (Position: 2, Importance: 0.1306)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' i' (Position: 15, Importance: 0.0941)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' while' (Position: 14, Importance: 0.0875)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' code' (Position: 5, Importance: 0.0863)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: '.i' (Position: 10, Importance: 0.0861)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: '(i' (Position: 22, Importance: 0.0777)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11):
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' +=' (Position: 26, Importance: 0.0685)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' <=' (Position: 16, Importance: 0.0632)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11):
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: '1' (Position: 28, Importance: 0.0608)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' using' (Position: 6, Importance: 0.0565)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' =' (Position: 11, Importance: 0.0462)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: '0' (Position: 13, Importance: 0.0355)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' a' (Position: 7, Importance: 0.0093)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ')' (Position: 23, Importance: 0.0022)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ' i' (Position: 25, Importance: 0.0015)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+
+TOKEN REMOVED: ':' (Position: 19, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Rewrite the following Python code using a for-loop.i = 0 while i <= 10:     print(i)     i += 1
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+for i in range(11): 
+    print(i)
+
+==================================================
+

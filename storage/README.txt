@@ -1,0 +1,1 @@
+This folder is empty on purpose and can be used to store results.

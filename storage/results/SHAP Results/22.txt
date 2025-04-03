@@ -1,0 +1,42 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:49:37.995369
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Write a function that takes in a string and returns a list of all the words that have more than 5 characters.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ function            1.0000          2         
+ string              0.9677          7         
+ a                   0.9633          6         
+ a                   0.9419          10        
+ the                 0.8670          14        
+ returns             0.8310          9         
+ have                0.8193          17        
+ words               0.8102          15        
+ of                  0.7950          12        
+ than                0.7784          19        
+ characters          0.7726          22        
+ that                0.7565          16        
+ takes               0.7474          4         
+ in                  0.5891          5         
+ that                0.5399          3         
+ and                 0.5186          8         
+Write                0.5090          0         
+ a                   0.4972          1         
+ list                0.4897          11        
+ more                0.4887          18        
+[space]              0.4695          20        
+.                    0.4695          23        
+ all                 0.2360          13        
+5                    0.0000          21        

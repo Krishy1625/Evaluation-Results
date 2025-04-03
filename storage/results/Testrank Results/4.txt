@@ -1,0 +1,7 @@
+urls            1.0000
+given           0.2906
+string.this     0.2613
+string          0.2405
+extract         0.2244
+code            0.1140
+contains        0.1050

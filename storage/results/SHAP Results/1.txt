@@ -1,0 +1,46 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:07:35.197446
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Change the following array so that it orders in ascending order.array = [3, 7, 1, 8, 4]
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ ascending           1.0000          9         
+ in                  0.9955          8         
+1                    0.9658          20        
+ orders              0.9567          7         
+ =                   0.9419          12        
+Change               0.9381          0         
+ following           0.9273          2         
+7                    0.9224          17        
+ order               0.9153          10        
+ array               0.9114          3         
+]                    0.9057          27        
+3                    0.9033          14        
+ the                 0.8975          1         
+ that                0.8572          5         
+ it                  0.8410          6         
+8                    0.8387          23        
+ [                   0.8217          13        
+ so                  0.8041          4         
+4                    0.4405          26        
+.array               0.4176          11        
+,                    0.0000          15        
+[space]              0.0000          16        
+,                    0.0000          18        
+[space]              0.0000          19        
+,                    0.0000          21        
+[space]              0.0000          22        
+,                    0.0000          24        
+[space]              0.0000          25        

@@ -1,0 +1,45 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:42:04.843633
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+In a given string, create a function that returns the longest consecutive sequence of characters.my_string = "abccdeefghj"
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+de                   1.0000          22        
+gh                   0.9780          24        
+ab                   0.9734          20        
+cc                   0.9689          21        
+ given               0.9654          2         
+j                    0.9608          25        
+ function            0.9451          7         
+ create              0.9446          5         
+ef                   0.9357          23        
+ that                0.9187          8         
+ longest             0.9159          11        
+ "                   0.8640          19        
+ characters          0.8569          15        
+ consecutive         0.8533          12        
+ of                  0.7961          14        
+ string              0.7164          3         
+ a                   0.6956          1         
+ sequence            0.6884          13        
+ returns             0.6689          9         
+_string              0.4530          17        
+ =                   0.4465          18        
+ a                   0.4014          6         
+In                   0.3859          0         
+,                    0.3859          4         
+"                    0.3859          26        
+.my                  0.3808          16        
+ the                 0.0000          10        

@@ -1,0 +1,5 @@
+function        1.0000
+calculate       0.9443
+maximum         0.8887
+two             0.8330
+create          0.3268

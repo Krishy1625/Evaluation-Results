@@ -1,0 +1,187 @@
+TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:44:44.460586
+Model: gpt-3.5-turbo
+Embedding Model: text-embedding-3-small
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+TOKEN IMPORTANCE ANALYSIS:
+--------------------------------------------------
+TOKEN                IMPORTANCE      POSITION  
+--------------------------------------------------
+ array               1.0000          2         
+Create               0.8406          0         
+ divisible           0.6460          9         
+15                   0.6312          6         
+45                   0.5760          16        
+3                    0.5254          12        
+ numbers             0.3308          8         
+ an                  0.1930          1         
+ length              0.1061          4         
+ of                  0.0559          3         
+ containing          0.0496          7         
+ to                  0.0417          14        
+ up                  0.0412          13        
+ by                  0.0000          10        
+
+PROMPTS WITH INDIVIDUAL TOKENS REMOVED AND THEIR RESPONSES:
+==================================================
+
+TOKEN REMOVED: ' array' (Position: 2, Importance: 1.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: 'Create' (Position: 0, Importance: 0.8406)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' divisible' (Position: 9, Importance: 0.6460)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: '15' (Position: 6, Importance: 0.6312)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: '45' (Position: 16, Importance: 0.5760)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: '3' (Position: 12, Importance: 0.5254)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' numbers' (Position: 8, Importance: 0.3308)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' an' (Position: 1, Importance: 0.1930)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' length' (Position: 4, Importance: 0.1061)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' of' (Position: 3, Importance: 0.0559)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' containing' (Position: 7, Importance: 0.0496)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' to' (Position: 14, Importance: 0.0417)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' up' (Position: 13, Importance: 0.0412)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+
+TOKEN REMOVED: ' by' (Position: 10, Importance: 0.0000)
+--------------------------------------------------
+MODIFIED PROMPT:
+Create an array of length 15 containing numbers divisible by 3 up to 45.
+
+API RESPONSE WITH TOKEN REMOVED:
+--------------------------------------------------
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45]
+
+==================================================
+

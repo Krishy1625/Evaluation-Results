@@ -1,0 +1,7 @@
+print           1.0000
+every           0.9796
+loop            0.7363
+combination     0.6388
+nested          0.4716
+numbers         0.3140
+create          0.2023

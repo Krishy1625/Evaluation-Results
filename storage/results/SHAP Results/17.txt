@@ -1,0 +1,29 @@
+SHAP TOKEN IMPORTANCE ANALYSIS
+==================================================
+
+Analysis Date: 2025-04-03T01:41:31.862461
+Model: gpt-3.5-turbo
+
+ORIGINAL PROMPT:
+--------------------------------------------------
+Create a function to calculate the maximum of two numbers.
+
+BASELINE MODEL OUTPUT (empty prompt):
+--------------------------------------------------
+Hello! How can I assist you today?
+
+TOKEN SHAP VALUES:
+--------------------------------------------------
+TOKEN                SHAP VALUE      POSITION  
+--------------------------------------------------
+ of                  1.0000          7         
+ function            0.9788          2         
+ the                 0.8982          5         
+ two                 0.6037          8         
+Create               0.5879          0         
+ maximum             0.5267          6         
+ calculate           0.4751          4         
+ numbers             0.4633          9         
+ a                   0.4038          1         
+.                    0.0094          10        
+ to                  0.0000          3         

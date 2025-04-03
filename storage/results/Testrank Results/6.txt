@@ -1,0 +1,6 @@
+code            1.0000
+calculate       0.9694
+mean            0.9389
+python          0.6217
+given           0.4591
+write           0.2384

@@ -1,0 +1,7 @@
+power           1.0000
+expression      0.5943
+mathematical    0.4517
+y.              0.3516
+perform         0.3020
+calculate       0.1648
+code            0.1498

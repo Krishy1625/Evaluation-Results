@@ -1,0 +1,5 @@
+list2           1.0000
+codelist1       0.4679
+ziplist1        0.4372
+following       0.2959
+output          0.1264
