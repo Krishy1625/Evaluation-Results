@@ -1,5 +1,5 @@
 ﻿# Evaluation-Results
-evaluation files in:
+Evaluation files in:
 - storage/results/Cosine Results/Evaluation Cosine
 - storage/results/SHAP Results/Evaluation Shap
 
