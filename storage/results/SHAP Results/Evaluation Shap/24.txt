@@ -1,0 +1,16 @@
+ function            1.0000          2         
+ whitespace          0.9984          6         
+Write                0.9983          0         
+.my                  0.9908          12        
+ string              0.9710          11        
+
+
+
+ characters      1.0000
+whitespace      0.7519
+given           0.6737
+remove          0.5045
+string.mystring 0.3641
+
+
+common: 3

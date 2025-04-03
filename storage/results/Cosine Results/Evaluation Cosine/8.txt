@@ -1,0 +1,15 @@
+Write                1.0000          0         
+ function            0.8768          2         
+ even                0.6309          10        
+ checks              0.5605          4         
+ a                   0.5373          1 
+
+
+ checks          1.0000
+given           0.9694
+number          0.9389
+function        0.6217
+even            0.4591
+
+common: 3
+

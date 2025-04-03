@@ -1,0 +1,19 @@
+ mean                1.0000                   
+ Python              0.5203                   
+ array               0.3687                  
+.[                   0.2786                  
+Write                0.2479             
+
+
+
+code            1.0000
+calculate       0.9694
+mean            0.9389
+python          0.6217
+given           0.4591
+
+
+
+common: 2
+
+

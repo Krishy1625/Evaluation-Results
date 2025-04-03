@@ -1,0 +1,14 @@
+ of                  1.0000          7         
+ function            0.9788          2         
+ the                 0.8982          5         
+ two                 0.6037          8         
+Create               0.5879          0     
+
+function        1.0000
+calculate       0.9443
+maximum         0.8887
+two             0.8330
+create          0.3268
+
+common: 3
+

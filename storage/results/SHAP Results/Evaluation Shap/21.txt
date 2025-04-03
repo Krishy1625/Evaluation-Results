@@ -1,0 +1,14 @@
+ with                1.0000          12        
+ takes               0.7997          4         
+ function            0.7774          2         
+ punctuation         0.7526          11        
+ replaces            0.7020          9         
+
+ takes           1.0000
+string          0.9694
+replaces        0.9389
+function        0.6217
+punctuation     0.4591
+
+common: 4
+

@@ -1,0 +1,14 @@
+ intersect           1.0000          13        
+ arrays              0.2013          4         
+ arr                 0.1887          31        
+1                    0.1693          17        
+.arr                 0.1593          16  
+
+code            1.0000
+snippet         0.8856
+return          0.7993
+intersecting    0.7374
+create          0.6725
+
+
+common: 1

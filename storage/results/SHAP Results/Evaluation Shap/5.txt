@@ -1,0 +1,16 @@
+ code                1.0000          5         
+ while               0.6861          14        
+ print               0.6716          21        
+ +=                  0.6678          26        
+ <=                  0.6520          16  
+
+
+
+ code            1.0000
+using           0.9796
+python          0.7363
+forloop.i       0.6388
+following       0.4716
+
+
+common: 1

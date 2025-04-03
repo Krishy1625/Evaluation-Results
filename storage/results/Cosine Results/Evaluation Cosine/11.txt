@@ -1,0 +1,16 @@
+Find                 1.0000          0         
+.string              0.5232          11        
+ number              0.4633          2         
+ string              0.4420          10        
+ =                   0.4078          12 
+
+
+
+ letter          1.0000
+appears         0.5907
+string.         0.5386
+string          0.3468
+times           0.2966
+
+common: 2
+

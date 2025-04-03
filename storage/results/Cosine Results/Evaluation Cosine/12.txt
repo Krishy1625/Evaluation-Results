@@ -1,0 +1,15 @@
+100                  1.0000          13        
+11                   0.9454          14        
+Convert              0.6038          0         
+ decimal             0.3821          7         
+.Binary              0.2900          9   
+
+
+number          1.0000
+decimal         0.5478
+binary          0.4164
+number.binary   0.3565
+following       0.2766
+
+
+common: 4

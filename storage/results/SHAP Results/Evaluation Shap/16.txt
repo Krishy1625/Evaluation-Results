@@ -1,0 +1,19 @@
+
+
+ an                  1.0000          1         
+ algorithm           0.6533          2         
+ characters          0.6506          11        
+ password            0.6497          7         
+Design               0.6097          0   
+
+
+
+algorithm       1.0000
+creates         0.9443
+random          0.8887
+password        0.8330
+design          0.3268
+
+
+
+common: 3

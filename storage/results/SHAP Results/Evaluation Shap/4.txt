@@ -1,0 +1,14 @@
+.facebook            1.0000          30        
+ given               0.9898          12        
+ https               0.9587          27        
+.com                 0.9540          31        
+.com                 0.9324          25   
+
+urls            1.0000
+given           0.2906
+string.this     0.2613
+string          0.2405
+extract         0.2244
+
+common: 1
+

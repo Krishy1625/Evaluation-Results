@@ -1,0 +1,17 @@
+Change               1.0000                    cosine
+ ascending           0.7054                            
+ array               0.6303                
+ =                   0.5190                 
+3                    0.4397           
+
+
+
+following       1.0000
+array           0.9443
+orders          0.8887          textrank
+ascending       0.8330
+change          0.3268
+
+
+
+common tokens/words:  3

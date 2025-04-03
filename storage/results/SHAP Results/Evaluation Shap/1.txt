@@ -1,0 +1,16 @@
+ ascending           1.0000          9         
+ in                  0.9955          8         
+1                    0.9658          20        
+ orders              0.9567          7         
+ =                   0.9419          12  
+
+
+
+ following       1.0000
+array           0.9443
+orders          0.8887
+ascending       0.8330
+change          0.3268
+
+common: 2
+

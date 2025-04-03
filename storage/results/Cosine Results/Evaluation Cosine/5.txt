@@ -1,0 +1,15 @@
+10                   1.0000                  
+ Python              0.4956                   
+Rew                  0.4093                   
+rite                 0.3963                   
+ for                 0.2326            
+
+
+code            1.0000
+using           0.9796
+python          0.7363
+forloop.i       0.6388
+following       0.4716
+
+
+common: 2

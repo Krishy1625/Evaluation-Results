@@ -1,0 +1,17 @@
+5                    1.0000          21        
+ words               0.7182          15        
+Write                0.6501          0         
+ characters          0.6459          22        
+ list                0.5866          11     
+
+
+
+ string          1.0000
+returns         0.9796
+takes           0.7363
+list            0.6388
+function        0.4716
+
+
+common: 1
+

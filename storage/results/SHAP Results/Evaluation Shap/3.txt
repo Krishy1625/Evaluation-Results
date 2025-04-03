@@ -1,0 +1,16 @@
+Write                1.0000          0         
+silent               0.7835          21        
+ =                   0.7429          19        
+ whether             0.7116          5         
+ "                   0.6617          20    
+
+
+
+ two             1.0000
+strings         0.8968
+anagrams        0.8232
+whether         0.6700
+not.first       0.4117
+
+common: 1
+

@@ -1,0 +1,16 @@
+ a                   1.0000          6         
+ the                 0.9211          1         
+ decimal             0.8124          7         
+.Binary              0.7207          9         
+ following           0.6927          2      
+
+
+
+ number          1.0000
+decimal         0.5478
+binary          0.4164
+number.binary   0.3565
+following       0.2766
+
+common: 4
+

@@ -1,0 +1,16 @@
+ sum                 1.0000                   
+ algorithm           0.3628                   
+Implement            0.2634                   
+ elements            0.2271                  
+.The                 0.1757             
+
+
+
+sum             1.0000 
+elements        0.9796
+find            0.7363 
+array.          0.6388 
+algorithm       0.4716 
+
+
+common: 3

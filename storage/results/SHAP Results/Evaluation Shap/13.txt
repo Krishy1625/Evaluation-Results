@@ -1,0 +1,17 @@
+ mathematical        1.0000          6         
+ expression          0.8263          7         
+ of                  0.8202          22        
+ x                   0.8016          18        
+ the                 0.6969          11        
+
+
+
+ power           1.0000
+expression      0.5943
+mathematical    0.4517
+y.              0.3516
+perform         0.3020
+
+
+common: 2
+

@@ -1,0 +1,15 @@
+ maximum             1.0000          6         
+ function            0.4190          2         
+ numbers             0.3198          9         
+Create               0.2979          0         
+ calculate           0.2642          4  
+
+
+ function        1.0000
+calculate       0.9443
+maximum         0.8887
+two             0.8330
+create          0.3268
+
+common: 4
+

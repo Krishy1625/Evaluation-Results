@@ -1,0 +1,17 @@
+ function            1.0000          2         
+ a                   0.9302          1         
+ if                  0.8973          5         
+ odd                 0.6629          12        
+ given               0.5287          7   
+
+
+
+ checks          1.0000
+given           0.9694
+number          0.9389
+function        0.6217
+even            0.4591
+
+
+common: 2
+

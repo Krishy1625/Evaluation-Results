@@ -1,0 +1,15 @@
+8                    1.0000          10        
+ password            0.9843          7         
+Design               0.6993          0         
+ algorithm           0.4369          2         
+ random              0.4040          6  
+
+
+ algorithm       1.0000
+creates         0.9443
+random          0.8887
+password        0.8330
+design          0.3268
+
+common: 4
+

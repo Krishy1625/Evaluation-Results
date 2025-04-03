@@ -1,0 +1,16 @@
+ combination         1.0000          7         
+-                    0.7752          13        
+0                    0.7614          12        
+9                    0.5718          14        
+ loop                0.4732          3  
+
+
+
+ print           1.0000
+every           0.9796
+loop            0.7363
+combination     0.6388
+nested          0.4716
+
+common: 2
+

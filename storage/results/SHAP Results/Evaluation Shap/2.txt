@@ -1,0 +1,17 @@
+ find                1.0000          4         
+.The                 0.9899          14        
+ of                  0.9053          7         
+3                    0.8980          19        
+ elements            0.8915          10 
+
+
+
+ sum             1.0000 
+elements        0.9796
+find            0.7363 
+array.          0.6388 
+algorithm       0.4716 
+
+common: 2 
+
+

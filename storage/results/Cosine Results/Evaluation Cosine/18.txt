@@ -1,0 +1,16 @@
+ longest             1.0000          11        
+.my                  0.8131          16        
+_string              0.6107          17        
+ function            0.6036          7         
+ =                   0.4932          18  
+
+
+
+ returns         1.0000
+longest         0.9315
+function        0.7476
+consecutive     0.6093
+create          0.4944
+
+
+common: 2

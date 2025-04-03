@@ -1,0 +1,15 @@
+ containing          1.0000          7         
+ by                  0.9861          10        
+ of                  0.9853          3         
+ array               0.9335          2         
+ an                  0.8885          1    
+
+ 15              1.0000
+containing      0.9796
+length          0.7363
+numbers         0.6388
+array           0.4716
+
+
+
+common: 2

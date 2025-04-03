@@ -1,0 +1,13 @@
+ maximum             1.0000          6         
+Write                0.3233          0         
+ in                  0.2425          7         
+ integers            0.2274          12        
+ =                   0.1989          15   
+
+ maximum         1.0000
+given           0.9796
+find            0.7363
+list            0.6388
+code            0.4716
+
+common: 1

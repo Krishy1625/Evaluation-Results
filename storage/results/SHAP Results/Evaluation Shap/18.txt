@@ -1,0 +1,14 @@
+de                   1.0000          22        
+gh                   0.9780          24        
+ab                   0.9734          20        
+cc                   0.9689          21        
+ given               0.9654          2  
+
+
+ returns         1.0000
+longest         0.9315
+function        0.7476
+consecutive     0.6093
+create          0.4944
+
+common: 0

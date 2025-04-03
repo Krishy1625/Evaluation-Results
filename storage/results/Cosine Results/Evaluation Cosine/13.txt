@@ -1,0 +1,17 @@
+Modify               1.0000          0         
+ TODO                0.8363          25        
+ code                0.6049          2         
+".                   0.5016          15        
+ power               0.4951          12        
+
+
+
+ power           1.0000
+expression      0.5943
+mathematical    0.4517
+y.              0.3516
+perform         0.3020
+
+
+common: 2
+

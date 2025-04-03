@@ -1,0 +1,14 @@
+1                    1.0000          41        
+2                    0.9145          22        
+ the                 0.5756          2         
+1                    0.5659          25        
+ of                  0.5523          4    
+
+
+list2           1.0000
+codelist1       0.4679
+ziplist1        0.4372
+following       0.2959
+output          0.1264
+
+common: 0

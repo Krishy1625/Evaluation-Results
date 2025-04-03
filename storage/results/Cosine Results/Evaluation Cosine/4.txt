@@ -1,0 +1,14 @@
+ snippet             1.0000                   
+Generate             0.8050                   
+.facebook            0.5078                  
+ URLs                0.4250                   
+.This                0.3485           
+
+
+urls            1.0000
+given           0.2906
+string.this     0.2613
+string          0.2405
+extract         0.2244
+
+common: 2
