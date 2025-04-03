@@ -13,5 +13,5 @@ whether         0.6700
 not.first       0.4117
 
 
-common: 11
+common: 2
 
